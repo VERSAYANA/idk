@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <Box>
       <Button onClick={toggleColorMode}>
-        Toggle {colorMode === "light" ? "Dark" : "Light"}
+        Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
       </Button>
     </Box>
   )
